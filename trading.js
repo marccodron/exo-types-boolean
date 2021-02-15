@@ -1,7 +1,12 @@
-// en cours...
-let Current = x
-let stoplosshigh = +
-let stoplossdown = -1000
-if {} else {}
-console.log('BTC' : + val3 + '$')
+let AssetVal = 6500
+let PriorVal = 6000
 
+if (AssetVal > PriorVal) {
+  console.log('Vendez du BTC')
+}
+if (AssetVal < PriorVal) {
+  console.log('Achetez du BTC')
+} 
+else {
+console.log('Ne faites rien')
+}
