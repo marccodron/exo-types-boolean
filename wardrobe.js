@@ -1,4 +1,6 @@
 let isRainy = true
+let isSunny = false
+let isCold = true
 let temperature = 10
 let clothes = ''
 
@@ -8,7 +10,17 @@ if (isRainy) {
 
 if (temperature < 15) {
   clothes += 'coat, '
-} else if (temperature >= 15 && temperature <= 20) {
+}
+
+if (isCold) {
+  clothes += 'gloves, '
+} 
+
+if (isSunny) {
+  clothes += 'sunglasses, '
+} 
+
+else if (temperature >= 15 && temperature <= 20) {
   clothes += 'sweater, '
 } else {
   clothes += 't-shirt, '
