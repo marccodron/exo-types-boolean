@@ -19,7 +19,7 @@ let res9 = !res8
 // ----------- true ------------- true ------------ => true
 let res10 =
   (res1 && res2) || (res3 && res4) || (res5 && res6) || (res7 && res8 && res9)
-// --- false ---------- true ------------- false ------------ false
+// --- false ---------- true ------------- false ------------- false
 
 console.log(`res1 = ${res1}`)
 console.log(`res2 = ${res2}`)
