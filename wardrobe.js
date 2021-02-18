@@ -16,13 +16,15 @@ if (isCold) {
   clothes += 'gloves, '
 } 
 
-if (isSunny) {
+else if (isSunny) {
   clothes += 'sunglasses, '
 } 
 
-else if (temperature >= 15 && temperature <= 20) {
+if (temperature >= 15 && temperature <= 20) {
   clothes += 'sweater, '
-} else {
+} 
+
+else {
   clothes += 't-shirt, '
 }
 console.log(`Je vous recommande de porter: ${clothes}`)

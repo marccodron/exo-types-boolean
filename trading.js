@@ -1,11 +1,12 @@
-let AssetVal = 6500
-let PriorVal = 6000
+let PrixDuBTC = 70000 // en $
+let PrixPourVendre = 60000
+let PerixPourAchetez = 45000
 
-if (AssetVal > PriorVal) {
-  console.log('Vendez du BTC')
-}
-if (AssetVal < PriorVal) {
+if (PrixDuBTC < PerixPourAchetez) {
   console.log('Achetez du BTC')
+}
+else if (PrixDuBTC > PrixPourVendre) {
+  console.log('Vendez du BTC')
 } 
 else {
 console.log('Ne faites rien')
